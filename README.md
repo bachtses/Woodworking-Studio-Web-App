@@ -1,6 +1,9 @@
 # Woodworking-Studio-Web-App
 
 Visit https://bachtses.github.io/Woodworking-Studio-Web-App/
+This project is under development.
+Note that this version is for mobile screen dimensions.
+
 
 links for files:
 <link rel="stylesheet" href="https://bachtses.github.io/Woodworking-Studio-Web-App/styles.css">
