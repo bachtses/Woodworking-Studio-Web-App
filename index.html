@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+
+<body>
+    <div class="loading_screen" id="loading_screen"> 
+        <video id="loading_screen_video" autoplay muted loop>
+            <source src="images/video2.mp4" type="video/mp4">
+            The browser does not support the video tag.
+        </video>
+        <h1>. name</h1>
+        <h2>wood | studio | workshop</h2>
+        <h3>enter <i class="fa fa-caret-right"></i></h3>
+        <button onclick="startbuttonClicked()"></button>
+    </div>
+
+    <div class="content_screen" id="content_screen">
+        <div class="header">
+            <button>
+                <h1>. name</h1>
+            </button> 
+            <button>
+                <h2> </h2>
+            </button> 
+        </div>
+
+        <h1 style="margin-top: 12vh;">Products</h1>
+        <div class="carousel">
+            <button onclick="product1buttonClicked()">
+                <img src="images\item1.jpg" alt="Image1"></img>
+                <h1>Hanok Eaves Table</h1>
+                <h2>view more</h2>
+            </button> 
+            <button>
+                <img src="images\item2.jpg" alt="Image2"></img>
+                <h1>Item 2 </h1>
+                <h2>Description 2</h2>
+            </button> 
+            <button>
+                <img src="images\item1.jpg" alt="Image3"></img>
+                <h1>Item 3</h1>
+                <h2>Description 3</h2>
+            </button> 
+        </div>
+
+        <h1>Design</h1>
+        <p>With a strong emphasis on practical solutions to everyday problems, the studio is best known for its innovative approach to furniture and lighting design. <br> <br> Our design philosophy is characterized by a harmonious blend of clean lines and natural materials, often incorporating subtle technical details.</p>
+
+        <h1>Contact</h1>
+        <p> Feel free to send your feedback or ask some questions about products and company via info@artu.works .</p>
+    
+        <div class="footer">
+            <button>
+                <p>Email: tasos.bachtses@gmail.com</p>
+            </button> 
+            <button>
+                <p>Phone: +306912345678</p>
+            </button> 
+        </div>
+    </div>
+
+    <div class="product_screen" id="product_screen">
+        <h1>Product 1</h1>
+        <h2>Soft, flowing, tactile forms of the new Moss collection are inspired by moss that embraces the surface of stone or wood. There are no sharp corners, every detail is conducive to comfort and coziness.</h2>
+     
+        <h2>Designer: Pavel Vetrov</h2>
+        <h2>Material: Wooden frame, soft upolstery</h2>
+        <h2>Colours: Various</h2>
+ 
+        <img src="images\item1slide1.jpg" alt="Image1"></img>
+        <h1>Slice 1</h1>
+        <h2>Description 1</h2>
+
+        <img src="images\item1slide2.jpg" alt="Image2"></img>
+        <h1>Slice 2 </h1>
+        <h2>Description 2</h2>
+
+        <img src="images\item1slide3.jpg" alt="Image3"></img>
+        <h1>Slice 3</h1>
+        <h2>Description 3</h2>
+    </div>
+
+    
+     
+    <script type="text/javascript" src="scripts.js"></script>
+
+</body>
+
+</html>
